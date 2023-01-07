@@ -1,4 +1,5 @@
 import React from "react"
+import Cuadrado from "../../img/cuadrado_vacio.png";
 
 const Card = () =>{
     return(
@@ -6,7 +7,7 @@ const Card = () =>{
         <div className="row row-cols-1 row-cols-md-4 g-4">
             <div className="col">
                 <div className="card">
-                <img src="./img/cuadrado_vacio.png" className="card-img-top" alt="..."/>
+                <img src={Cuadrado} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title text-center">Card title</h5>
                     <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nibh rhoncus, consequat magna non, porta dui.</p>
@@ -19,7 +20,7 @@ const Card = () =>{
             </div>
             <div className="col">
                 <div className="card">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src={Cuadrado} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title text-center">Card title</h5>
                     <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nibh rhoncus, consequat magna non, porta dui.</p>
@@ -32,7 +33,7 @@ const Card = () =>{
             </div>
             <div className="col">
                 <div className="card">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src={Cuadrado} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title text-center">Card title</h5>
                     <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu nibh rhoncus, consequat magna non, porta dui.</p>
@@ -45,7 +46,7 @@ const Card = () =>{
             </div>
             <div className="col">
                 <div className="card">
-                <img src="..." className="card-img-top" alt="..."/>
+                <img src={Cuadrado} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title text-center">Card title</h5>
                     <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
